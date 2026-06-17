@@ -6,19 +6,5 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("📊 Customer Churn Prediction System")
+st.title("Customer Churn Prediction System")
 
-st.markdown("""
-### Welcome
-
-This project predicts whether a customer is likely to leave the telecom company.
-
-### Model Used
-- Decision Tree Classifier
-
-### Features Used
-- Contract
-- Tenure
-- Internet Service
-- Monthly Charges
-""")

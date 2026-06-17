@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
 
-st.title("📈 Exploratory Data Analysis")
+st.title("Exploratory Data Analysis")
 
-df = pd.read_csv("data/Customer_Churn.csv.csv")
+df = pd.read_csv("data/Customer_Churn.csv")
 
 st.subheader("Dataset Preview")
 st.dataframe(df.head())
