@@ -26,10 +26,9 @@ The project uses customer subscription information such as tenure, monthly charg
 Customer-Churn-Prediction/
 │
 ├── data/
-│   └── telecom_customer_churn.csv
+│   └── Customer_Churn.csv
 │
 ├── models/
-│   ├── decision.pkl
 │   ├── svm_model.pkl
 │   ├── scaler.pkl
 │   ├── features.pkl
@@ -66,8 +65,6 @@ Train-Test Split
         ▼
 Model Training
  ┌───────────────┐
- │ Decision Tree │
- ├───────────────┤
  │ Random Forest │
  ├───────────────┤
  │ SVM           │
@@ -97,7 +94,7 @@ Customer Churn Prediction
 
 ### Programming Language
 
-* Python 3.x
+* Python
 
 ### Libraries
 
@@ -120,19 +117,6 @@ Customer Churn Prediction
 * Encoding categorical features
 * Feature scaling using StandardScaler
 * One-Hot Encoding using `pd.get_dummies()`
-
-### Feature Engineering
-
-Additional features were created to improve model performance.
-
-Example:
-
-```python
-X["ChargePerMonth"] = (
-    X["MonthlyCharges"] /
-    (X["tenure"] + 1)
-)
-```
 
 ### Model Training
 
@@ -228,12 +212,12 @@ The model uses features such as:
 
 ## Model Files
 
-| File          | Description                 |
-| ------------- | --------------------------- | 
-| svm_model.pkl | Trained SVM Model           |
-| scaler.pkl    | Feature Scaling Object      |
-| features.pkl  | Feature Names               |
-| metrics.pkl   | Evaluation Metrics          |
+| File          | Description            |
+| ------------- | ---------------------- |
+| svm_model.pkl | Trained SVM Model      |
+| scaler.pkl    | Feature Scaling Object |
+| features.pkl  | Feature Names          |
+| metrics.pkl   | Evaluation Metrics     |
 
 ---
 
@@ -251,6 +235,8 @@ The model uses features such as:
 ## Author
 
 Pooja Yadav
+
+---
 
 ## License
 
