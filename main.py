@@ -158,6 +158,6 @@ if predict_btn:
     else:
         # Dummy Logic
         if contract == "Month-to-month" and monthly_charges > 65:
-            st.error("⚠️ Mock Prediction: Customer likely to CHURN")
+            st.error("Customer likely to CHURN")
         else:
-            st.success("✅ Mock Prediction: Customer likely to STAY")
+            st.success("Customer likely to STAY")
