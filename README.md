@@ -228,7 +228,7 @@ The model uses features such as:
 * Model explainability using SHAP
 * Cloud deployment
 * Customer segmentation
-* Automated retraining pipeline
+
 
 ---
 
@@ -241,3 +241,4 @@ Pooja Yadav
 ## License
 
 This project is developed for educational and academic purposes.
+
